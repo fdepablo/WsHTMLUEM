@@ -1,0 +1,29 @@
+h3 {
+    color: orange;
+    text-align: right;
+}
+
+h4 {
+    color: aquamarine;
+    text-align: center;
+    background-color: black;
+}
+
+/* Esto es un comentario */
+/* Si ponemos "#" podemos hacer el selector por "id", solo va a afectar al elemento
+    cuyo id sea "h5Especial"
+*/
+#h5Especial {
+    color: brown
+}
+
+/* Si queremos acceder al atributo class debemos de poner ".2" y luego el nombre de
+la clase */
+
+.rojo{
+    color : red
+}
+
+.centrado {
+    text-align: center;
+}
