@@ -1,3 +1,6 @@
+/*
+Aqui podemos declarar todos nuestros selectores luego tendremos que importarlos en nuestros HTML
+*/
 h3 {
     color: orange;
     text-align: right;
@@ -17,7 +20,9 @@ h4 {
     color: brown
 }
 
-/* Si queremos acceder al atributo class debemos de poner ".2" y luego el nombre de
+/* 
+Este selector es para aquellas etiquetas que tengan el atriburo "class"
+Si queremos acceder al atributo class debemos de poner "." y luego el nombre de
 la clase */
 
 .rojo{

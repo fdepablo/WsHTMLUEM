@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herencia CSS</title>
+    <style>
+        div{
+            color: blue;
+            border-color: rgb(255, 0, 0);
+            border-width: 2px;
+            border-style: solid;
+        }
+        /* 
+        Por defecto heredamos el atributo color y font, si queremos heredar otros, hay que decirlo
+        Con la propiedad inherit, heredamos el css, con initial lo devolvemos a sus valores por defecto
+        */
+        p{
+            border: inherit;
+            border-color: blueviolet;
+            padding: 50px;
+            padding-top: 150px;
+            margin-top: 25px;
+            margin-left: 35px;
+            margin-bottom: 40px;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Esto es un parrafo</p>
+        <p>Esto es otro parrafo</p>
+    </div>
+</body>
+</html>
